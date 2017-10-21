@@ -1,6 +1,38 @@
 ## About
 
-This package is an extension on top of Spatie's own `spatie/laravel-html` package to easily produce font awesome markup.
+This package is an extension on top of [Spatie laravel-html](https://github.com/spatie/laravel-html) package to easily produce font awesome markup.
+
+## Installation
+
+You can install the package via composer:
+
+``` bash
+composer require spatie/laravel-html
+```
+
+If you are using Laravel 5.5, the service provider and facade will automatically be discovered. 
+
+On earlier versions, you need to do that manually.
+
+You must install the service provider:
+
+```php
+// config/app.php
+'providers' => [
+    ...
+    MarvinLabs\Html\FontAwesome\FontAwesomeServiceProvider::class,
+];
+```
+
+And optionally register an alias for the facade.
+
+```php
+// config/app.php
+'aliases' => [
+    ...
+    'FA' => MarvinLabs\Html\FontAwesome\Facades\FontAwesome::class,
+];
+```
 
 ## Usage
 
