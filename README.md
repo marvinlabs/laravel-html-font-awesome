@@ -1,3 +1,9 @@
+# Font Awesome fluent HTML builder
+
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/marvinlabs/laravel-html-font-awesome.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-html)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Total Downloads](https://img.shields.io/packagist/dt/marvinlabs/laravel-html-font-awesome.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-html)
+
 ## About
 
 This package is an extension on top of [Spatie laravel-html](https://github.com/spatie/laravel-html) package to easily produce font awesome markup.
@@ -82,5 +88,19 @@ Finally, you can also add any CSS class to the stack, like the ones for sizing (
 Output the latest minified Font Awesome CSS link using the maxCDN URL     
     
     {!! fa()->css() !!}
-   
-   
+      
+## Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+## Security
+
+If you discover any security related issues, please email freek@spatie.be instead of using the issue tracker.
+
+## Credits
+
+- [Spatie agency](https://github.com/spatie) for the base package
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
