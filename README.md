@@ -1,8 +1,8 @@
 # Font Awesome fluent HTML builder
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/marvinlabs/laravel-html-font-awesome.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-html)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/marvinlabs/laravel-html-font-awesome.svg?style=flat-square)](https://packagist.org/packages/marvinlabs/laravel-html-font-awesome)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/marvinlabs/laravel-html-font-awesome.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-html)
+[![Total Downloads](https://img.shields.io/packagist/dt/marvinlabs/laravel-html-font-awesome.svg?style=flat-square)](https://packagist.org/packages/marvinlabs/laravel-html-font-awesome)
 
 ## About
 
