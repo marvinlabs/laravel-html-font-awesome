@@ -13,7 +13,7 @@ This package is an extension on top of [Spatie laravel-html](https://github.com/
 You can install the package via composer:
 
 ``` bash
-composer require spatie/laravel-html
+composer require marvinlabs/laravel-html-font-awesome
 ```
 
 If you are using Laravel 5.5, the service provider and facade will automatically be discovered. 
