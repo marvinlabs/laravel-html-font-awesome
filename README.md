@@ -62,6 +62,17 @@ You can chain methods to affect the icon.
 
     {!! fa()->icon('repeat')->spin()->size('2x') !!}
 
+### Lists
+
+You can also easily replace the list bullets by custom icons.
+
+    <ul class="fa-ul">
+        <li>{!! fa()->checkSquareO()->forList() !!} Item 1</li>
+        <li>{!! fa()->squareO()->forList() !!} Item 2</li>
+        <li>{!! fa()->checkSquareO()->forList() !!} Item 3</li>
+        <li>{!! fa()->checkSquareO()->forList() !!} Item 4</li>
+    </ul>
+    
 ### Stacks
 
 You can also produce icon stacks (two icons on top of each other).
