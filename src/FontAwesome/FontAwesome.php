@@ -88,13 +88,22 @@ class FontAwesome
         return $this->html->span($contents)->addClass('fa-stack');
     }
 
+    /**
+     * Magic method which will take care of calling the `icon` method when given an icon name directly.
+     *
+     * For instance `fa()->beer()` will be caught here and turned into `fa()->icon('beer')`
+     *
+     * @param string $name
+     * @param array  $arguments
+     *
+     * @return \MarvinLabs\Html\FontAwesome\Elements\FontAwesomeIcon
+     */
     public function __call($name, $arguments)
     {
-        if (empty($arguments)) {
+        if (empty($arguments))
+        {
             return $this->icon(kebab_case($name));
         }
-
-        return parent::__call($name, $arguments);
     }
 
     /**
