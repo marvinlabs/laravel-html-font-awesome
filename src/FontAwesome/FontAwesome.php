@@ -15,6 +15,9 @@ use Spatie\Html\Html;
 class FontAwesome
 {
 
+    /** @var \Spatie\Html\Html */
+    protected $html;
+
     /**
      * FontAwesome constructor.
      *
