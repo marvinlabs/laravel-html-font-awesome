@@ -2,7 +2,7 @@
 
 All notable changes to `marvinlabs/laravel-html-font-awesome` will be documented in this file.
 
-## 1.0.1 - 2018/04/25
+## 1.0.5 - 2018/04/25
 
 - Fix the composer version requirements for dependencies
 
