@@ -96,6 +96,8 @@ Finally, you can also add any CSS class to the stack, like the ones for sizing (
 
     {!! fa()->stack([ 'square-o', 'beer', ])->addClass('fa-5x') !!}
     
+### Styles and scripts
+    
 Output the latest minified Font Awesome CSS link using the maxCDN URL     
     
     {!! fa()->css() !!}
