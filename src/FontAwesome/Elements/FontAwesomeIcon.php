@@ -18,12 +18,17 @@ class FontAwesomeIcon extends BaseElement
      * Set the icon to be used
      *
      * @param string $name Name of the icon (without any 'fa-' prefix)
-     *
+     * @param string $iconStyle Icon style in single letter (Available: 's', 'r', 'l', 'd', 'b')
      * @return static
      */
-    public function name($name)
+    public function name($name, $iconStyle = null)
     {
-        return $this->addClass(['fa', "fa-{$name}"]);
+        // Get specified icon style
+        $iconStyle = !empty($iconStyle) ? $iconStyle : config('laravel_html_font_awesome.default_icon_style');
+        // Keep icon style as an single lowercase letter
+        $iconStyle = strtolower(mb_substr($iconStyle, 0, 1));
+
+        return $this->addClass(["fa{$iconStyle}", "fa-{$name}"]);
     }
 
     /**

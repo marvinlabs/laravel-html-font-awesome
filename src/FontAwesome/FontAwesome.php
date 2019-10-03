@@ -18,15 +18,19 @@ class FontAwesome
 
     /** @var \Spatie\Html\Html */
     protected $html;
+    /** @var string */
+    private $iconStyle;
 
     /**
      * FontAwesome constructor.
      *
      * @param \Spatie\Html\Html $html
+     * @param string $iconStyle
      */
-    public function __construct(Html $html)
+    public function __construct(Html $html, $iconStyle)
     {
         $this->html = $html;
+        $this->iconStyle = $iconStyle;
     }
 
     /**
@@ -52,7 +56,7 @@ class FontAwesome
      */
     public function icon($name)
     {
-        return FontAwesomeIcon::create()->name($name);
+        return FontAwesomeIcon::create()->name($name, $this->iconStyle);
     }
 
     /**
