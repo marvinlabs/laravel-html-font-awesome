@@ -2,6 +2,7 @@
 
 namespace MarvinLabs\Html\FontAwesome;
 
+use Illuminate\Support\Str;
 use MarvinLabs\Html\FontAwesome\Elements\FontAwesomeIcon;
 use Spatie\Html\Html;
 
@@ -102,7 +103,7 @@ class FontAwesome
     {
         if (empty($arguments))
         {
-            return $this->icon(kebab_case($name));
+            return $this->icon(Str::kebab($name));
         }
     }
 
