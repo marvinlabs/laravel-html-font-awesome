@@ -21,7 +21,7 @@ if (!function_exists('fas')) {
      */
     function fas()
     {
-        return app(FontAwesome::class, ['iconStyle' => 's']);
+        return fa('s');
     }
 }
 
@@ -32,7 +32,7 @@ if (!function_exists('far')) {
      */
     function far()
     {
-        return app(FontAwesome::class, ['iconStyle' => 'r']);
+        return fa('r');
     }
 }
 
@@ -43,7 +43,7 @@ if (!function_exists('fal')) {
      */
     function fal()
     {
-        return app(FontAwesome::class, ['iconStyle' => 'l']);
+        return fa('l');
     }
 }
 
@@ -54,7 +54,7 @@ if (!function_exists('fad')) {
      */
     function fad()
     {
-        return app(FontAwesome::class, ['iconStyle' => 'd']);
+        return fa('d');
     }
 }
 
@@ -65,6 +65,6 @@ if (!function_exists('fab')) {
      */
     function fab()
     {
-        return app(FontAwesome::class, ['iconStyle' => 'b']);
+        return fa('b');
     }
 }
