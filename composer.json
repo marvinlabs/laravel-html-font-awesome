@@ -14,6 +14,12 @@
             "email" : "contact@vincentprat.info",
             "homepage" : "https://vincentprat.info",
             "role" : "Developer"
+        },
+        {
+            "name" : "Chan-Yuan Hsu",
+            "email" : "jyhsu2000@gmail.com",
+            "homepage" : "https://kid7.club",
+            "role" : "Developer"
         }
     ],
     "require" : {
