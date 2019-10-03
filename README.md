@@ -120,6 +120,10 @@ If you discover any security related issues, please email bonjour@vincentprat.in
 
 - [Spatie agency](https://github.com/spatie) for the base package
 
+## Contributors
+
+- [jyhsu2000](https://github.com/jyhsu2000) (Support for FontAwesome 5 compatibility)
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
