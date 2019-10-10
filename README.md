@@ -56,6 +56,12 @@ capitalize each word after the first one).
     {!! fa()->icon('window-close') !!}
     {!! fa()->windowClose() !!}
 
+If you want to use different icon styles provided by FontAwesome 5, you can easily add a style parameter to the fa() or
+use different helpers for the corresponding icon style. (You can also set the default style in the config file)
+
+    {!! fa('r')->icon('address-book') !!}
+    {!! far()->icon('address-book') !!}
+
 ### Modifiers
 
 You can chain methods to affect the icon.
@@ -113,6 +119,10 @@ If you discover any security related issues, please email bonjour@vincentprat.in
 ## Credits
 
 - [Spatie agency](https://github.com/spatie) for the base package
+
+## Contributors
+
+- [jyhsu2000](https://github.com/jyhsu2000) (Support for FontAwesome 5 compatibility)
 
 ## License
 
